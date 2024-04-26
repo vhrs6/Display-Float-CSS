@@ -1,0 +1,66 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color:lightcyan;}
+
+/* Styling for each example */
+.inline-example span {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+.block-example div {
+    width: 700px;
+    height: 100px;
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.inline-block-example span {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightsalmon;
+}
+.inline-block-example div {
+    display: inline-block;
+    width: 700px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightsalmon;
+}
+
+.float-example div {
+    float: left;
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+}
+#first{
+    float: right;
+}
+
+.inline-block-example span>#first {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightsalmon;
+}
